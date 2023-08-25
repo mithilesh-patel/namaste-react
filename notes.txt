@@ -1,0 +1,9 @@
+Date-25th Aug
+
+Q1. What is Bundlers? What is the difference between the following Parcel, Vite, Webpack?
+2. dev dependency meaning
+3. caret and tilde in package.json file
+4. package-lock.json-- NEVER EVER put package-lock.json in gitignore
+    keeps the track of EXACT version of  the package that the project is using
+5. Node modules
+NEVER EVER edit NodeModules, Dist folder files, package-lock.json, package.json.
