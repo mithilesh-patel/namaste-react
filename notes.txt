@@ -7,3 +7,24 @@ Q1. What is Bundlers? What is the difference between the following Parcel, Vite,
     keeps the track of EXACT version of  the package that the project is using
 5. Node modules
 NEVER EVER edit NodeModules, Dist folder files, package-lock.json, package.json.
+
+Date-26th Aug
+
+1. react-dom/client
+2. Parcel does -  
+
+    Hot module reload or HMR, 
+    File watcher algorithm written in C++ 
+    ImageOptimization
+    Caching while development
+    compatible with older version of browsers- Adds polyfills
+    HTTPS on dev
+    Differen port number for each project 
+    Superfast
+    Consistent hashing algorithm
+
+
+3. When we use Parcel we do not require entry point in package.json, so remove ["main": "App.js",] from 
+    package.json
+4. Parcel during build command- bundles, minifies, cleans like removing console.log 
+5. Media like Images etc is the heaviest in the website and take a lot of time to load 
