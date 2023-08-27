@@ -28,3 +28,27 @@ Date-26th Aug
     package.json
 4. Parcel during build command- bundles, minifies, cleans like removing console.log 
 5. Media like Images etc is the heaviest in the website and take a lot of time to load 
+
+
+Date 27 Aug
+
+1. Transitive dependencies
+
+
+    A----->B------->C
+
+    A--------------->C   (transitive dependency)
+
+    if A is dependent on B , and B is dependent on C,
+    then A is transitive dependent on C
+
+
+2. Dependency tree
+Parcel documentation
+browserlist.dev, query composition --> Helps in making the application compatible for 
+the older browsers.
+
+
+Commands in parcel 
+
+npx parcel index.html
