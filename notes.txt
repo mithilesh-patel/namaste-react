@@ -22,6 +22,7 @@ Date-26th Aug
     Differen port number for each project 
     Superfast
     Consistent hashing algorithm
+    Tree Shaking- removing unwanted code
 
 
 3. When we use Parcel we do not require entry point in package.json, so remove ["main": "App.js",] from 
@@ -52,3 +53,14 @@ the older browsers.
 Commands in parcel 
 
 npx parcel index.html
+
+
+
+Date : 28 Aug
+
+* browserlist- last 10 chrome versions -- It does not mean that it will only work on last 10 version rather, it guarantees
+that it will surely work on last 10 chrome versions.
+
+Normal dependencies and Dev dependency in package.json
+Polyfills
+Babel-  it can convert the latest version of JavaScript code into the one that the old browser understands.
