@@ -64,3 +64,36 @@ that it will surely work on last 10 chrome versions.
 Normal dependencies and Dev dependency in package.json
 Polyfills
 Babel-  it can convert the latest version of JavaScript code into the one that the old browser understands.
+
+
+Date 29 Aug
+
+
+React.createElement ==> Object ==> HTML element 
+
+React.createElement was very ugly and non-readable so FB developers created JSX
+
+NOTE: JSX is a HTML LIKE SYNTAX but it is NOT HTML inside JavaScript. 
+Key is a way through which React tracks uniqueness
+
+JSX ==> React.createElement ==> Object ==> HTML element 
+In the  backend Babel is converting JSX to react code
+
+HW- difference between HTML and JSX
+
+If possible learn about Babel as a crash course.
+
+
+Date 30 Aug
+
+* JSX is not imported, it is just a syntax, or a way of writing codde that babel understands and coonverts 
+into React understandable ugly code.
+
+* The node modules has a separate package-load.json to keep track of all the versions of the transitive dependencies
+in the NodeModules folder. Even the folder in node module has its separate package.json file to keep track of
+version of its dependencies.
+
+Even if the node-modules is in the .gitignore file, even then it is everytime created when we build in the server
+using the package.json and package-lock.json ehich is pushed to the repository.
+
+*
