@@ -97,3 +97,13 @@ Even if the node-modules is in the .gitignore file, even then it is everytime cr
 using the package.json and package-lock.json ehich is pushed to the repository.
 
 *
+
+
+Date 31 Aug
+
+
+FUNCTIONAL COMPONENT
+
+* Functional component is just a JavaScript function. So it can be called using () as well
+* Name of Functional component should always start with a Capital letter.
+* Sanitisation  
