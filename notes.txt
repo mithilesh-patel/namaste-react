@@ -107,3 +107,10 @@ FUNCTIONAL COMPONENT
 * Functional component is just a JavaScript function. So it can be called using () as well
 * Name of Functional component should always start with a Capital letter.
 * Sanitisation  
+
+
+Date 01 September
+
+
+* Component composition- When we use component inside component
+* ID is a HTML thing but KEY is a JS thing
