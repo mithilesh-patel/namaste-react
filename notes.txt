@@ -114,3 +114,7 @@ Date 01 September
 
 * Component composition- When we use component inside component
 * ID is a HTML thing but KEY is a JS thing
+
+
+Date 02 September
+
