@@ -4,9 +4,25 @@
     margin: 0;
 }
 
+.header{
+    display: flex; 
+    border: 1px solid black;
+    justify-content: space-between;
+}
 
-#root{
-    background-color: rgb(230, 226, 24);
-    color: rgb(0, 0, 0);
-    padding: 100px;
+.nav-items ul{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav-items ul li{
+    list-style-type: none;
+    padding: 30px;    
+}
+
+a{
+    color: black;
+    text-decoration: none;
 }

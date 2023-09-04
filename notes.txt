@@ -118,3 +118,24 @@ Date 01 September
 
 Date 02 September
 
+
+Date 03 September
+
+* JSX can only have one parent. For this we can use div as a parent element, or we can use React.Fragment component
+
+            <React.Fragment> 
+
+                Your code here
+
+            </React.Fragment>
+
+            ======OR========
+
+            //Shorthand for React.Fragment 
+            <>  
+                Your code here
+            </>
+
+*Inline styling in react
+
+Can we use Fragment inside Fragment

@@ -1,11 +1,55 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import logo from "./assets/images/logo.png"
 
-const Header = () => (
+{
+  /**
+   *
+   * Header
+   *  -Logo (Title)
+   *  -Nav Items
+   *  -Cart
+   *
+   * Body
+   *  -Search bar
+   *  -Restaurant list
+   *    -Restaurant card (many)
+   *      -Image
+   *      -Name
+   *      -Rating
+   *      -Cuisines
+   *
+   * Footer
+   *  -Links
+   *  -Copyright
+   *
+   */
+}
+
+const Header = () => {
+  return (
+    <div className="header">
+      <Title />
+      <div className="nav-items">
+        <ul>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Cuisines</a></li>
+          <li><a href="#">Restaurants</a></li>
+          <li><a href="#">Locations</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </div>
+    </div>
+  );
+};
+
+
+const Body = () => (
   <div>
-    <h3>Header </h3>
+    <h3>Body</h3>
   </div>
 );
+
 
 const Footer = () => (
   <div>
@@ -13,20 +57,21 @@ const Footer = () => (
   </div>
 );
 
-const Content =()=> (
-    <>
-    <h1>{34+54}</h1>
-      <Header />
-      <h1>Bangaluru</h1>
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae eaque
-        laborum totam dolores tenetur obcaecati quidem praesentium. Nihil
-        maiores minima reiciendis incidunt? Cupiditate harum, reprehenderit eos
-        quos modi minus odio!
-      </p>
-      <Footer />
-    </>
-  );
+const Title = () => (
+  <>
+  <a href="/">
+  <img src={logo} alt="logo" width="100px" />
+  </a>
+  </>
+);
+
+const Content = () => (
+  <>
+    <Header />
+    <Body />
+    <Footer />
+  </>
+);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
