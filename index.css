@@ -1,7 +1,7 @@
-*{
-    padding: 0;
-    box-sizing: border-box;
-    margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;   
 }
 
 .header{
@@ -10,8 +10,24 @@
     justify-content: space-between;
 }
 
+/* CARD */
+
+.card{
+    width: 200px;
+}
+
+
+.card img{
+    width: 100%;
+}
+
+
+
+.nav-items{
+    display: flex;
+}
+
 .nav-items ul{
-    height: 100px;
     display: flex;
     align-items: center;
     
@@ -19,7 +35,7 @@
 
 .nav-items ul li{
     list-style-type: none;
-    padding: 30px;    
+    padding: 0px 25px;
 }
 
 a{

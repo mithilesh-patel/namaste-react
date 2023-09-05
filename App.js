@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import logo from "./assets/images/logo.png"
+import logo from "./assets/images/logo.png";
+import noodles from "./assets/images/noodles.avif";
 
 {
   /**
@@ -26,6 +27,15 @@ import logo from "./assets/images/logo.png"
    */
 }
 
+
+const Title = () => (
+  <>
+  <a href="/">
+  <img src={logo} alt="logo" width="100px" />
+  </a>
+  </>
+);
+
 const Header = () => {
   return (
     <div className="header">
@@ -36,7 +46,7 @@ const Header = () => {
           <li><a href="#">Cuisines</a></li>
           <li><a href="#">Restaurants</a></li>
           <li><a href="#">Locations</a></li>
-          <li><a href="#">Contact us</a></li>
+          <li><a href="#">Cart</a></li>
         </ul>
       </div>
     </div>
@@ -44,9 +54,21 @@ const Header = () => {
 };
 
 
+const Restaurantcard=()=>(
+  <div className="card">
+    <h2>djfdlskj</h2>
+    <img src={noodles} alt="noodles" />
+    <h2>FreshMenu</h2>      
+    <h3>4.3 stars</h3>
+
+  </div>
+)
+
+
 const Body = () => (
   <div>
     <h3>Body</h3>
+    <Restaurantcard />
   </div>
 );
 
@@ -57,13 +79,6 @@ const Footer = () => (
   </div>
 );
 
-const Title = () => (
-  <>
-  <a href="/">
-  <img src={logo} alt="logo" width="100px" />
-  </a>
-  </>
-);
 
 const Content = () => (
   <>
