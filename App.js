@@ -55,19 +55,21 @@ const Header = () => {
 
 
 const Restaurantcard=()=>(
-  <div className="card">
-    <h2>djfdlskj</h2>
+  <div className="res-card">
+    <h2>Chow India</h2>
     <img src={noodles} alt="noodles" />
     <h2>FreshMenu</h2>      
     <h3>4.3 stars</h3>
-
   </div>
 )
 
+const searchstyle={
+    padding: "10px"
+}
 
 const Body = () => (
   <div>
-    <h3>Body</h3>
+    <div className="search" style={searchstyle}>Search</div>
     <Restaurantcard />
   </div>
 );

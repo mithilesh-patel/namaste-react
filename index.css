@@ -10,18 +10,7 @@ body{
     justify-content: space-between;
 }
 
-/* CARD */
-
-.card{
-    width: 200px;
-}
-
-
-.card img{
-    width: 100%;
-}
-
-
+/* NAVBAR */
 
 .nav-items{
     display: flex;
@@ -41,4 +30,18 @@ body{
 a{
     color: black;
     text-decoration: none;
+}
+
+
+/* Restaurant Card */
+
+.res-card{
+    width: 200px;
+    border: 1px solid red;
+    padding: 5px;
+}
+
+
+.res-card img{
+    width: 100%;
 }
