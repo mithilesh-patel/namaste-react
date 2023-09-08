@@ -144,3 +144,14 @@ Can we use Fragment inside Fragment
 Date 06 September
 
 Date 07 September
+
+Date 08 September
+
+* React Props- Props are arguments passed into React components.
+Props are passed to components via HTML attributes.
+
+eg-
+
+function Car(props) {
+  return <h2>I am a { props.brand }!</h2>;
+}
