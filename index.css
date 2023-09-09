@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body{
     font-family: 'Poppins', sans-serif;   
 }
@@ -36,9 +42,16 @@ a{
 /* Restaurant Card */
 
 .res-card{
+    margin: 10px;
     width: 200px;
     border: 1px solid red;
     padding: 5px;
+}
+
+.card-display{
+    display: flex;
+    flex-wrap: wrap;
+    
 }
 
 

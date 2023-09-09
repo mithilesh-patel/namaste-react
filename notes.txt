@@ -155,3 +155,18 @@ eg-
 function Car(props) {
   return <h2>I am a { props.brand }!</h2>;
 }
+
+
+* Props can be destructured on the fly
+
+//this is destructuring on the fly,instead of passing props as arguments, list the individual elements
+//as arguments
+
+const Restaurantcard=({resname, category, rating})=>(     
+  <div className="res-card">
+    <h2>{resname}</h2>
+    <img src={noodles} alt="noodles" />
+    <h2>{category}</h2>      
+    <h3>{rating}</h3>
+  </div>
+)

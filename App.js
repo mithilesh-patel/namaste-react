@@ -54,12 +54,12 @@ const Header = () => {
 };
 
 
-const Restaurantcard=()=>(
+const Restaurantcard=({resname, category, rating})=>(
   <div className="res-card">
-    <h2>Chow India</h2>
+    <h2>{resname}</h2>
     <img src={noodles} alt="noodles" />
-    <h2>FreshMenu</h2>      
-    <h3>4.3 stars</h3>
+    <h2>{category}</h2>      
+    <h3>{rating}</h3>
   </div>
 )
 
@@ -68,10 +68,14 @@ const searchstyle={
 }
 
 const Body = () => (
-  <div>
+  <>
     <div className="search" style={searchstyle}>Search</div>
-    <Restaurantcard />
-  </div>
+    <div className="card-display">
+    <Restaurantcard resname="Chow India" rating="4.3" category="Chinese"/>
+    <Restaurantcard resname="Meghna Foods" rating="4.5" category="Biryani"/>
+
+    </div>
+  </>
 );
 
 
