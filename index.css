@@ -44,8 +44,17 @@ a{
 .res-card{
     margin: 10px;
     width: 200px;
-    border: 1px solid red;
     padding: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.res-card:hover{
+    /* border: 1px solid red; */
+    scale: 1.1;
+    background-color: rgb(204, 204, 204);
 }
 
 .card-display{
