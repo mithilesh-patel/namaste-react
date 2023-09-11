@@ -1925,13 +1925,16 @@ const resArr = [
 
 const Restaurantcard = (props) =>{
 const {resData} = props;  
+const {name}= resData?.info;
+const {url}= resData?.info?.o2FeaturedImage;
+const {address}= resData?.info?.locality;
 
  return (
   <div className="res-card">
 
-    <h2>{resData.info.name}</h2>
-    <img src={resData.info.o2FeaturedImage.url} alt="" />
-    <h3>Address : {resData.info.locality.address}</h3>
+    <h2>{name}</h2>
+    <img src={url} alt="" />
+    <h3>Address : {address}</h3>
     
   </div>
 )};
