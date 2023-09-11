@@ -8,6 +8,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;   
+    
 }
 
 .header{
@@ -15,6 +16,31 @@ body{
     border: 1px solid black;
     justify-content: space-between;
 }
+
+/* HEADER */
+
+.search{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#searchbtn, #search{
+    
+    height: 3rem;
+    padding: .5rem;
+    font-size: 1.5rem;
+    margin-left: 5px;
+}
+
+#searchbtn{
+    width: 10vw;
+}
+
+#search{
+    width: 85vw;
+}
+
 
 /* NAVBAR */
 
@@ -60,7 +86,7 @@ a{
 .card-display{
     display: flex;
     flex-wrap: wrap;
-    
+    justify-content: space-around;
 }
 
 
