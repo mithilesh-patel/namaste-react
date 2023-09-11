@@ -170,3 +170,10 @@ const Restaurantcard=({resname, category, rating})=>(
     <h3>{rating}</h3>
   </div>
 )
+
+
+
+Date 11 September
+
+REACT HOOKS
+
