@@ -1,8 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import logo from "../assets/images/logo.png";
-import Title from "./Components/Title";
 import Header from "./Components/Header";
+import {SEARCH_STYLE} from "./utils/constant";
+import Footer from "./Components/Footer";
+
 
 {
   /**
@@ -1907,13 +1908,11 @@ const {address}= resData?.info?.locality;
   </div>
 )};
 
-const searchstyle = {
-  padding: "10px",
-};
+
 
 const Body = () => (
   <div className="body">
-    <div className="search" style={searchstyle}>
+    <div className="search" style={SEARCH_STYLE}>
       <form action="#" method="post">
       <input type="text" name="search" id="search" placeholder="Search Restaurants" />
         <input type="submit" value="Search" id="searchbtn" />
@@ -1930,11 +1929,7 @@ const Body = () => (
   </div>
 );
 
-const Footer = () => (
-  <div className="footer">
-    <h3>Footer</h3>
-  </div>
-);
+
 
 const Content = () => (
   <>
