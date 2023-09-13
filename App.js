@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import logo from "./assets/images/logo.png";
-import noodles from "./assets/images/noodles.avif";
+import Title from "./src/Components/Title"
 
 {
   /**
@@ -27,13 +26,6 @@ import noodles from "./assets/images/noodles.avif";
    */
 }
 
-const Title = () => (
-  <>
-    <a href="/">
-      <img src={logo} alt="logo" width="100px" />
-    </a>
-  </>
-);
 
 const Header = () => {
   return (
