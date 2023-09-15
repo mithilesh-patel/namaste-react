@@ -184,3 +184,28 @@ Date 12 September
 Date 13 September
 
 
+Date 14 September
+  /**
+   *
+   * Header
+   *  -Logo (Title)
+   *  -Nav Items
+   *  -Cart
+   *
+   * Body
+   *  -Search bar
+   *  -Restaurant list
+   *    -Restaurant card (many)
+   *      -Image
+   *      -Name
+   *      -Rating
+   *      -Cuisines
+   *
+   * Footer
+   *  -Links
+   *  -Copyright
+   *
+   */
+
+
+Date 15 September
