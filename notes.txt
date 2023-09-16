@@ -209,3 +209,8 @@ Date 14 September
 
 
 Date 15 September
+
+React Hooks-
+* Normal React Utility functions written by Facebook developers
+
+ Date 16 September
