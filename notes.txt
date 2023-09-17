@@ -214,3 +214,6 @@ React Hooks-
 * Normal React Utility functions written by Facebook developers
 
  Date 16 September
+Note-
+* Declare the state variable inside the component we want to use  
+* Whenever a state variable updates, React rerenders the components.
