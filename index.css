@@ -19,12 +19,6 @@ body{
 
 /* HEADER */
 
-.search{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-}
-
 #searchbtn, #search{
     
     height: 3rem;
@@ -34,13 +28,18 @@ body{
 }
 
 #searchbtn{
-    width: 10vw;
+    width: calc(100 - 85vw );
 }
 
 #search{
     width: 85vw;
 }
 
+.sortBtn{
+    padding: 10px;
+    margin: 10px;    
+    font-size: 1rem;
+}
 
 /* NAVBAR */
 
@@ -78,7 +77,6 @@ a{
 }
 
 .res-card:hover{
-    /* border: 1px solid red; */
     scale: 1.1;
     background-color: rgb(204, 204, 204);
 }
@@ -86,7 +84,7 @@ a{
 .card-display{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    
 }
 
 
