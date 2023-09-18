@@ -217,3 +217,20 @@ React Hooks-
 Note-
 * Declare the state variable inside the component we want to use  
 * Whenever a state variable updates, React rerenders the components.
+
+
+Date 16 September
+
+* Reconciliation algorithm- When something changes in the UI
+
+https://github.com/acdlite/react-fiber-architecture
+
+Virtual DOM is representation of actual dom. 
+Whenever there is a change in any state variable, React will see through the diff algorithm 
+which nodes are new and then update the old nodes. Then usign the diff , the React will update the original DOM
+
+React fiber
+
+React is fast because it is doing efficient DOM manipulations, because it has a Virtual dom. Virtual dom is 
+js representation of DOM. React took that and built its algorithm around it. React efficiently finds difference 
+between Virtual doms and update them
