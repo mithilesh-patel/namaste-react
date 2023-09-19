@@ -234,3 +234,21 @@ React fiber
 React is fast because it is doing efficient DOM manipulations, because it has a Virtual dom. Virtual dom is 
 js representation of DOM. React took that and built its algorithm around it. React efficiently finds difference 
 between Virtual doms and update them
+
+
+
+
+Date- 18 September
+
+EP-6 
+
+Monolith architecture- Single big application where everything used to be altogether.
+Microservices architecture- Here everything , like the UI service, SMS service, DB service, etc are different
+ services which are running on separate ports.
+One advantage of microservices is Separation of responsibilities, and the services can be written in separate
+languages
+
+
+* 2 approaches how the UI fetch the data from backend
+
+Date 19 September
