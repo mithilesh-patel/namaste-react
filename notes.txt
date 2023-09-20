@@ -252,3 +252,5 @@ languages
 * 2 approaches how the UI fetch the data from backend
 
 Date 19 September
+
+Date 20  September
