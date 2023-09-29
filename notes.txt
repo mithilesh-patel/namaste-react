@@ -274,3 +274,5 @@ Date 27 September
 Date 28 September
 
 Date 29 September
+-Updated the Bootstrap 5 code in the office
+-fixed the hover effect and the flexbox issue in the navbar
