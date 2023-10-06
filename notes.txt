@@ -289,3 +289,7 @@ Date 4 October
 
 Date 5 October
 Java DSA
+
+Date 6 October (Friday)
+HTML, CSS, Creating responsive design using CSS for the AEM header
+
