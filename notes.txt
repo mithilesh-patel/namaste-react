@@ -293,3 +293,5 @@ Java DSA
 Date 6 October (Friday)
 HTML, CSS, Creating responsive design using CSS for the AEM header
 
+Date 9 October
+Started DSA in Java- collections
