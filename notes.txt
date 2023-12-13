@@ -211,6 +211,7 @@ Date 14 September
 Date 15 September
 
 React Hooks-
+
 * Normal React Utility functions written by Facebook developers
 
  Date 16 September
@@ -325,3 +326,6 @@ Date 25 October
 Date 29 Nov Namaste React 
 
 Date 30 nov
+
+Date 13 December
+
